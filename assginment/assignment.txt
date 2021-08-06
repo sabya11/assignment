@@ -1,0 +1,39 @@
+<html>
+<body background="ffr.png" text="white">
+
+<form action="https://www.facebook.com" >
+<center>
+<fieldset>
+<legend><h1><img src="frd.jpg" height="100" width="130"></a><br></h1></legend>
+<table>
+<tr>
+<td><label for="t1">First Name:</label></td>
+ <td><input type="text" name="t1" placeholder="your name"></td>
+</tr>
+<tr>
+<td><label for="e1">Email:</label></td>
+<td><input type="email" name="e1"placeholder="valid email"></td>
+</tr>
+<tr>
+<td><label for="p1">Mobile:</label></td>
+<td><input type="tele" name="p1"placeholder="Phone Number" minlength="10" maxlength="10" required></td>
+</tr>
+<tr>
+<td><label for="Description">Description:</label></td>
+<td><textarea rows="10" cols="30" 
+name="t3"></textarea></td>
+</tr>
+
+
+<tr>
+<td><input type="submit" name="submit" 
+value="submit"></td>
+
+
+</tr>
+</table>
+</fieldset>
+</center>
+</form>
+</body>
+</html>
